@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+
+}
+
+
+
+#cabecario {
+    background-color: #313131;
+    padding: 32px;
+}
+
+#cabecario h1 {
+    margin: 0;
+    color: #FF1F19;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+#lista-pokemons {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(225px,1fr));
+    gap: 1rem;
+
+}
+
+.pokemons {
+    /*float: left;*/
+    /*width: 275px;*/
+
+}
+
+.pokemons :hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.pokemons img {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+
+
+.pokemons p.numero {
+    font-weight: bold;
+    color: #919191;
+    margin-top: 3px;
+    margin-bottom: 12px;
+}
+
+.pokemons p.nome {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 6px;
+    margin-top: 0px;
+
+}
+
+.pokemons div.lista-tipos {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+
+.pokemons div.lista-tipos div {
+
+}
+
+.tipo {
+    width: 74px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 2px;
+
+}
+
+.planta {
+    background-color: #9bcc50;
+
+}
+
+.venenoso {
+    background-color: #b97fc9;
+    color: white;
+}
+
+.fogo {
+    background-color: #fd7d24;
+}
+
+.voador{
+    background-image: linear-gradient(180deg,#3dc7ef 50%,#bdb9b8 50%);
+}
